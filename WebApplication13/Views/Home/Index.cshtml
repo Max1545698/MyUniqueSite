@@ -2,11 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-<script>
-    var element = document.getElementById("remove-css");
-    element.onclick = function () { document.querySelectorAll("link").forEach((x, y) => x.remove()); }
-</script>
-<a href="" class="btn btn-primary" id="remove-css">Remove CSS</a>
+<a onclick="buttonClick()" href="" class="btn btn-primary" id="remove-css">Remove CSS</a>
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
